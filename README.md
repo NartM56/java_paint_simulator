@@ -1,1 +1,2 @@
-# java_paint_simulator
+# Java Paint Simulator
+
