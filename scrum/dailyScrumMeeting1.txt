@@ -1,7 +1,5 @@
 # Fill in, commit and push each day.
-Member name: Mowahid Kahloon  
-email:       mowahid.kahloon@mail.utoronto.ca 
-utorid:      kahloon6  
+Member name: Mowahid Kahloon
 
 Oct 14,2024
 	What I did yesterday: assignment wasnt released

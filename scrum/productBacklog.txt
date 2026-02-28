@@ -64,7 +64,7 @@ I WANT   : To be able to select the current line thickness, to be applied
 SO THAT  : 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US?.008 : kahloon6 : NotStarted 
+TYPE     : USER STORY US?.008 : Mowahid : NotStarted 
 NAME     : colour picker tool
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -77,7 +77,7 @@ I WANT   : create a tool that selects the colour of the item its on top of Examp
 SO THAT  : drawing becomes easier
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US?.009 : kahloon6 : NotStarted 
+TYPE     : USER STORY US?.009 :	Mowahid : NotStarted 
 NAME     : eraser tool
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -90,7 +90,7 @@ I WANT   : create a tool that erases the drawing beneath it Example:
 	
 SO THAT  : the user can erase mistakes instead of undo'ing
 --------------------------------------------------------------------------
-TYPE: USER STORY US?.010 : machfjna : NotStarted
+TYPE: USER STORY US?.010 : Nart : NotStarted
 NAME: Save/Load Drawing
 PRIORITY: 2
 ESTIMATE: (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days) ACTUAL:
@@ -98,7 +98,7 @@ AS A: user
 I WANT: To be able to save my current drawing to a file and load a previously saved drawing.
 SO THAT: I can continue my work later or share my drawing with others.
 --------------------------------------------------------------------------
-TYPE: USER STORY US?.011 : machfjna : NotStarted
+TYPE: USER STORY US?.011 : Nart : NotStarted
 NAME: Delete Shape
 PRIORITY: 2
 ESTIMATE: (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days) ACTUAL:
@@ -106,7 +106,7 @@ AS A: user
 I WANT: To be able to select and delete a specific shape that I’ve drawn on the canvas.
 SO THAT: I can remove any shapes that I do not want anymore without affecting the rest of my drawing.
 --------------------------------------------------------------------------
-TYPE     : USER STORY US?.010 : wangni55 : NotStarted
+TYPE     : USER STORY US?.010 : Nicholas : NotStarted
 NAME     : Flipping Rectangle, square and potentially other shapes to be made
 PRIORITY : 2
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -117,7 +117,7 @@ SO THAT  : User can still make a triangle, even though I dragged my cursor
            upwards or leftwards.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US?.011 : wangni55 : NotStarted
+TYPE     : USER STORY US?.011 : Nicholas : NotStarted
 NAME     : Making sure to save changes before exiting
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -127,7 +127,7 @@ I WANT   : Make sure that the user wants to exit with unsaved changes
 SO THAT  : User can minimize the mistake of exiting before saving the file
            or changes made.
 --------------------------------------------------------------------------
-TYPE: USER STORY US?.012 : machfjna : NotStarted
+TYPE: USER STORY US?.012 : Nart : NotStarted
 NAME: Save/Load Drawing
 PRIORITY: 2
 ESTIMATE: (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days) ACTUAL:
@@ -135,7 +135,7 @@ AS A: user
 I WANT: To be able to save my current drawing to a file and load a previously saved drawing.
 SO THAT: I can continue my work later or share my drawing with others.
 --------------------------------------------------------------------------
-TYPE: USER STORY US?.013 : machfjna : NotStarted
+TYPE: USER STORY US?.013 : Nart : NotStarted
 NAME: Delete Shape
 PRIORITY: 2
 ESTIMATE: (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days) ACTUAL:
@@ -145,7 +145,7 @@ SO THAT: I can remove any shapes that I do not want anymore without affecting th
 --------------------------------------------------------------------------
 # COMPLETED USER STORIES/BUGS BELOW ###########################################
 --------------------------------------------------------------------------
-TYPE     : USER STORY US1.001 : rosenbl6 : Complete
+TYPE     : USER STORY US1.001 : Professor : Complete
 NAME     : Draw Circle
 PRIORITY : 1
 ESTIMATE : 2 hours ACTUAL : 2 hours
@@ -155,7 +155,7 @@ I WANT   : To click the center of the circle, drag, and release to specify
 SO THAT  : I can add circles to my canvas
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------
-TYPE     : USER STORY US1.002 : machfjna : Completed
+TYPE     : USER STORY US1.002 : Nart : Completed
 NAME     : Draw Circle Feedback
 PRIORITY : 2
 ESTIMATE : 4 hours   ACTUAL : 3 hours
@@ -169,7 +169,7 @@ SO THAT  : I can see the circle I am about to build on release of the mouse
            button.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US1.003 : kahloon6 : completed
+TYPE     : USER STORY US1.003 : Mowahid : completed
 NAME     : Draw Rectangle
 PRIORITY : 2
 ESTIMATE : 2 hours    ACTUAL : 1 hour
@@ -179,7 +179,7 @@ I WANT   : To click on one corner of a rectangle, drag, and release to
 SO THAT  : I can add rectangles to my canvas
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US1.004 : wangni55 : Completed
+TYPE     : USER STORY US1.004 : Nicholas : Completed
 NAME     : Draw Rectangle Feedback
 PRIORITY : 2
 ESTIMATE : 4 hours    ACTUAL : 2 hours
@@ -188,7 +188,7 @@ I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid const
 SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US2.001 : wangni55 : Completed
+TYPE     : USER STORY US2.001 : Nicholas : Completed
 NAME     : Draw Triangle
 PRIORITY : 2
 ESTIMATE : 4 hours    ACTUAL : 2 hours
@@ -198,7 +198,7 @@ I WANT   : To click on the top corner of a triangle, drag, and release to
 SO THAT  : I can add triangles to my canvas
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US2.002 : kahloon6 : completed
+TYPE     : USER STORY US2.002 : Mowahid : completed
 NAME     : Draw Square
 PRIORITY : 2
 ESTIMATE : 2 hours    ACTUAL : 2 hours
@@ -208,7 +208,7 @@ I WANT   : To click on one corner of a square, drag, and release to
 SO THAT  : I can add squares to my canvas
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US2.003 : wangni55 : Completed
+TYPE     : USER STORY US2.003 : Nicholas : Completed
 NAME     : Draw Oval
 PRIORITY : 2
 ESTIMATE : 2 hours    ACTUAL : 1 hour
@@ -218,14 +218,14 @@ I WANT   : To click on the centre of the shape, drag, and release to
 SO THAT  : I can add ovals to my canvas
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG1.001 : Kahloon6 : Completed
+TYPE     : BUG BUG1.001 : Mowahid : Completed
 NAME     : Icons instead of text for drawing mode selection
 PRIORITY : 1
 ESTIMATE : 2 hours,  ACTUAL : 3 hours
 ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG1.002 : machfjna : Completed
+TYPE     : BUG BUG1.002 : Nart : Completed
 NAME     : Drawing selection mode not indicated
 PRIORITY : 1
 ESTIMATE : 2 Hours    ACTUAL : 2
@@ -234,7 +234,7 @@ ISSUE    : Currently, you can't tell which mode "Circle", "Rectangle", ...
            to highlight the currently selected mode?
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG1.005 : wangni55 : Completed
+TYPE     : BUG BUG1.005 : nicholas : Completed
 NAME     : Squiggle is broken
 PRIORITY : 1
 ESTIMATE : 1 hour   ACTUAL : 1 hour
@@ -243,7 +243,7 @@ ISSUE    : Squiggles are connected to each other by a straight line. Each drag
            the issue is with the representation of the squiggles in the Model.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG1.006 : situmor01 : Completed
+TYPE     : BUG BUG1.006 : Jessica : Completed
 NAME     : Circle drawing is broken
 PRIORITY : 1
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -264,7 +264,7 @@ ISSUE    : Code is not modular and is difficult to expand. Need a better
            'if' blocks in the PaintPanel mouse event code.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG2.003.part1 : kahloon6 : completed
+TYPE     : BUG BUG2.003.part1 : Mowahid : completed
 NAME     : Architecture behind choosing selection mode is poor
 PRIORITY : 3
 ESTIMATE : 4 hours   ACTUAL : 5 hours
@@ -276,7 +276,7 @@ ISSUE    : work on better architecture behind selecting a drawing mode,
            mouse event code.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG2.003.part2 : machfjna : completed
+TYPE     : BUG BUG2.003.part2 : Nart : completed
 NAME     : Architecture behind choosing selection mode is poor
 PRIORITY : 3
 ESTIMATE : 4 hours    ACTUAL : 
@@ -288,7 +288,7 @@ ISSUE    : work on better architecture behind selecting a drawing mode,
            mouse event code.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG?.004 : kahloon6 : Completed
+TYPE     : BUG BUG?.004 : Mowahid : Completed
 NAME     : Architecture behind Model is poor
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -299,7 +299,7 @@ ISSUE    : Having a list of different types of drawable things in the
            Consider some design patterns, or change of responsibility
            here.
 --------------------------------------------------------------------------
-TYPE     : BUG BUG3.005 : wangni55 : Completed
+TYPE     : BUG BUG3.005 : Nicholas : Completed
 NAME     : Architecture behind handle and update method in panel is poor
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 4 hours
@@ -311,7 +311,7 @@ ISSUE    : Adding a new shape into the handle method in PaintPanel will break
 --------------------------------------------------------------------------
 ---------------------------- Extras begin---------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER US3.001 : kahloon6 : Completed
+TYPE     : USER US3.001 : Mowahid : Completed
 NAME     : themes
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -321,7 +321,7 @@ I WANT   : to be able to change the theme of the paint application by selecting 
 SO THAT  : my paint application can look different with different themes that are artistic
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER US3.003 : wangni55 : Completed
+TYPE     : USER US3.003 : Nicholas : Completed
 NAME     : Draw polyline
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 2 hours
@@ -330,7 +330,7 @@ I WANT   : to be able to make squiggles with ends that connect
 SO THAT  : I only have one continuous line, instead of disconnected lines
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE : USER US3.004 : machfjna : Completed
+TYPE : USER US3.004 : Nart : Completed
 NAME : Zoom In and Zoom Out
 PRIORITY : 3
 ESTIMATE : 3 hours ACTUAL : 4
@@ -339,7 +339,7 @@ I WANT : to be able to zoom in and zoom out on the canvas
 SO THAT : I can have a better view of my drawings and focus on a particular area
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE : USER US3.006 : machfjna : Completed
+TYPE : USER US3.006 : Nart : Completed
 NAME : Shape Duplication
 PRIORITY : 3
 ESTIMATE : 2 hours ACTUAL :
@@ -349,7 +349,7 @@ I WANT : to be able to duplicate shapes on the canvas
 SO THAT : I can quickly create multiple of the same shapes without having to draw them myself
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US4.005 : kahloon6 : Finished
+TYPE     : USER STORY US4.005 : Mowahid : Finished
 NAME     : Color selector
 PRIORITY : 3
 ESTIMATE :  4 hour   ACTUAL : 4
@@ -372,7 +372,7 @@ I WANT   : To be able to select the current drawing color, to be applied
 SO THAT  : The user can have a variety of colours at their creative disposal.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE : USER STORY US4.006 : machfjna : Finished
+TYPE : USER STORY US4.006 : Nart : Finished
 NAME : Undo/Redo Functionality
 PRIORITY : 3
 ESTIMATE : 3 hours
@@ -384,7 +384,7 @@ changes without having to start over.
 SO THAT : I can make adjustments to my artwork without restarting.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US4.007 : machfjna : NotStarted
+TYPE     : USER STORY US4.007 : Nart : NotStarted
 NAME     : Line thickness selector
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -408,7 +408,7 @@ I WANT   : To be able to select the current line thickness, to be applied
 SO THAT  : I can be creative when by using thinner and thicker lines to express my art
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG4.001 : kahloon6 : Completed
+TYPE     : BUG BUG4.001 : Mowahid : Completed
 NAME     : "New" menubar button doesn't work
 PRIORITY : 3
 ESTIMATE : 1 hour ACTUAL : 2
@@ -416,7 +416,7 @@ ISSUE    : the new button that is supposed to reset the drawing board back to em
            and start the user back at circle again is no working.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US?.011 : wangni55 : Completed
+TYPE     : USER STORY US?.011 : Nicholas : Completed
 NAME     : Adding save feature
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 2 hours
@@ -426,7 +426,7 @@ I WANT   : to be able to save the changes I made as an image file (.png)
 SO THAT  : user can export their drawing into their computer file
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG4.004 : wangni55 : Completed
+TYPE     : BUG BUG4.004 : Nicholas : Completed
 NAME     : Can't have thickness to 0
 PRIORITY : 3
 ESTIMATE : 1 hour ACTUAL : 1 hour

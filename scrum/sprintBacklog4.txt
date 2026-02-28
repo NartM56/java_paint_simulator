@@ -7,7 +7,7 @@
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US4.005 : kahloon6 : Finished
+TYPE     : USER STORY US4.005 : Mowahid : Finished
 NAME     : Color selector
 PRIORITY : 3
 ESTIMATE :  4 hour   ACTUAL : 4
@@ -30,7 +30,7 @@ I WANT   : To be able to select the current drawing color, to be applied
 SO THAT  : The user can have a variety of colours at their creative disposal.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE : USER STORY US4.006 : machfjna : Finished
+TYPE : USER STORY US4.006 : Nart : Finished
 NAME : Undo/Redo Functionality
 PRIORITY : 3
 ESTIMATE : 3 hours
@@ -42,7 +42,7 @@ changes without having to start over.
 SO THAT : I can make adjustments to my artwork without restarting.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US4.007 : machfjna : NotStarted
+TYPE     : USER STORY US4.007 : Nart : NotStarted
 NAME     : Line thickness selector
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -66,7 +66,7 @@ I WANT   : To be able to select the current line thickness, to be applied
 SO THAT  : I can be creative when by using thinner and thicker lines to express my art
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US?.011 : wangni55 : Completed
+TYPE     : USER STORY US?.011 : Nicholas : Completed
 NAME     : Adding save feature
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 1 hour
@@ -76,7 +76,7 @@ I WANT   : to be able to save the changes I made as an image file (.png)
 SO THAT  : user can export their drawing into their computer file
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG4.001 : kahloon6 : Completed
+TYPE     : BUG BUG4.001 : Mowahid : Completed
 NAME     : "New" menubar button doesn't work
 PRIORITY : 3
 ESTIMATE : 1 hour ACTUAL : 2
@@ -84,7 +84,7 @@ ISSUE    : the new button that is supposed to reset the drawing board back to em
            and start the user back at circle again is no working.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG4.004 : wangni55 : Completed
+TYPE     : BUG BUG4.004 : Nicholas : Completed
 NAME     : Can't have thickness to 0
 PRIORITY : 3
 ESTIMATE : 1 hour ACTUAL : 1 hour

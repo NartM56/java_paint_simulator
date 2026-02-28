@@ -1,7 +1,5 @@
 # Fill in, commit and push each day.
 Member name:    Nicholas Nathan Wang
-email:          nnathan.wang@mail.utoronto.ca
-utorid:         wangni55
 
 Oct 14,2024
 	What I did yesterday:

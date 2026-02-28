@@ -1,7 +1,5 @@
 # Fill in, commit and push each day.
 Member name: Jessica Olivia Situmorang
-email: jessica.situmorang@mail.utoronto.ca
-utorid: situmor1
 
 Oct 14,2024
 	What I did yesterday:

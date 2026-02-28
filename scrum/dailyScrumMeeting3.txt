@@ -1,7 +1,5 @@
 # Fill in, commit and push each day.
 Member name: Nart  Machfj
-email:       n.machfj@mail.utoronto.ca
-utorid:      machfjna
 
 Oct 14,2024
 	What I did yesterday:

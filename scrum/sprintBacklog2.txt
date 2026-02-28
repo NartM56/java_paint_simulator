@@ -19,7 +19,7 @@ ISSUE    : Code is not modular and is difficult to expand. Need a better
            'if' blocks in the PaintPanel mouse event code.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG2.003.part1 : kahloon6 : finished
+TYPE     : BUG BUG2.003.part1 : Mowahid : finished
 NAME     : Architecture behind choosing selection mode is poor
 PRIORITY : 3
 ESTIMATE : 4 hours   ACTUAL : 5 hours
@@ -31,7 +31,7 @@ ISSUE    : work on better architecture behind selecting a drawing mode,
            mouse event code.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG2.003.part2 : machfjna : started
+TYPE     : BUG BUG2.003.part2 : Nart : started
 NAME     : Architecture behind choosing selection mode is poor
 PRIORITY : 3
 ESTIMATE : 4 hours    ACTUAL :
@@ -43,7 +43,7 @@ ISSUE    : work on better architecture behind selecting a drawing mode,
            mouse event code.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US2.001 : wangni55 : Completed
+TYPE     : USER STORY US2.001 : Nicholas : Completed
 NAME     : Draw Triangle
 PRIORITY : 2
 ESTIMATE : 4 hours    ACTUAL : 2 hours
@@ -53,7 +53,7 @@ I WANT   : To click on the top corner of a triangle, drag, and release to
 SO THAT  : I can add triangles to my canvas
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US2.002 : UTORID : situmor1 NotStarted
+TYPE     : USER STORY US2.002 : UTORID : Jessica NotStarted
 NAME     : Draw Square
 PRIORITY : 2
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -63,7 +63,7 @@ I WANT   : To click on one corner of a square, drag, and release to
 SO THAT  : I can add squares to my canvas
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY US2.003 : wangni55 : Completed
+TYPE     : USER STORY US2.003 : Nicholas : Completed
 NAME     : Draw Oval
 PRIORITY : 2
 ESTIMATE : 2 hours    ACTUAL : 1 hour

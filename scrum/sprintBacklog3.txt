@@ -6,7 +6,7 @@
 # Sprint 3 Backlog UserStories go below
 
 --------------------------------------------------------------------------
-TYPE     : BUG BUG?.004 : kahloon6 : Completed
+TYPE     : BUG BUG?.004 : Mowahid : Completed
 NAME     : Architecture behind Model is poor
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 3 hours
@@ -18,7 +18,7 @@ ISSUE    : Having a list of different types of drawable things in the
            here.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : BUG BUG3.005 : wangni55 : Completed
+TYPE     : BUG BUG3.005 : Nicholas : Completed
 NAME     : Architecture behind handle and update method in panel is poor
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 4 hours
@@ -29,7 +29,7 @@ ISSUE    : Adding a new shape into the handle method in PaintPanel will break
            modified.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER US3.001 : kahloon6 : Completed
+TYPE     : USER US3.001 : Mowahid : Completed
 NAME     : themes
 PRIORITY : 3
 ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
@@ -39,7 +39,7 @@ I WANT   : to be able to change the theme of the paint application by selecting 
 SO THAT  : my paint application can look different with different themes that are artistic
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER US3.003 : wangni55 : Completed
+TYPE     : USER US3.003 : Nicholas : Completed
 NAME     : Draw polyline
 PRIORITY : 3
 ESTIMATE : 2 hours    ACTUAL : 2 hours
@@ -48,7 +48,7 @@ I WANT   : to be able to make squiggles with ends that connect
 SO THAT  : I only have one continuous line, instead of disconnected lines
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE : USER US3.004 : machfjna : Completed
+TYPE : USER US3.004 : Nart : Completed
 NAME : Zoom In and Zoom Out
 PRIORITY : 3
 ESTIMATE : 3 hours ACTUAL : 4
@@ -57,7 +57,7 @@ I WANT : to be able to zoom in and zoom out on the canvas
 SO THAT : I can have a better view of my drawings and focus on a particular area
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE : USER US3.006 : machfjna : Completed
+TYPE : USER US3.006 : Nart : Completed
 NAME : Shape Duplication
 PRIORITY : 3
 ESTIMATE : 2 hours ACTUAL :
