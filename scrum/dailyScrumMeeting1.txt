@@ -1,0 +1,165 @@
+# Fill in, commit and push each day.
+Member name: Mowahid Kahloon  
+email:       mowahid.kahloon@mail.utoronto.ca 
+utorid:      kahloon6  
+
+Oct 14,2024
+	What I did yesterday: assignment wasnt released
+	What I will do today: assignment wasnt released
+	Obstacles I face: assignment wasnt released
+
+Oct 15,2024
+	What I did yesterday: n/a assignment wasnt released
+	What I will do today: n/a assignment wasnt released
+	Obstacles I face: n/a  assignment wasnt released
+
+Oct 16,2024
+	What I did yesterday: find group members for the project
+	What I will do today: connect with my group members
+	Obstacles I face: N/A
+
+Oct 17,2024
+	What I did yesterday: downloaded the repo and assignment zip folder
+	What I will do today: fix BUG1.001 and complete US1.003
+	Obstacles I face: Im still not used to git branching and merge conflicts so those are some obsticals
+
+Oct 18,2024
+	What I did yesterday: completed BUG1.001 and US1.002
+	What I will do today: review my code and refine it
+	Obstacles I face: bugs or errors in my code which i will need to debug
+
+Oct 19,2024
+	What I did yesterday: refined code
+	What I will do today: work on architecture.txt
+	Obstacles I face: creating proper uml designs
+
+Oct 20,2024
+	What I did yesterday: refined the code i made
+	What I will do today: work on architecture.txt with my group
+	Obstacles I face: understanding the architecture of the overall assignment and creating UML designs
+
+Oct 21,2024
+	What I did yesterday: finished sprint 1
+	What I will do today: read sprint 2
+	Obstacles I face: not many obsticles other than understanding sprint 2
+
+Oct 22,2024
+	What I did yesterday: read sprint 2
+	What I will do today: plan sprint 2 meeting and start working tomorrow
+	Obstacles I face: not many
+
+Oct 23,2024
+	What I did yesterday: planned sprint 2
+	What I will do today: study for midterm
+	Obstacles I face: week 1 & 2 content
+
+Oct 24,2024
+	What I did yesterday: study for midterm
+	What I will do today: study for midterm
+	Obstacles I face:
+
+Oct 25,2024
+	What I did yesterday: study for midterm
+	What I will do today: study for midterm
+	Obstacles I face:
+
+Oct 26,2024
+	What I did yesterday: studied for midterm
+	What I will do today: worked on architecture
+	Obstacles I face: itl be hard
+
+Oct 27,2024
+	What I did yesterday: figured out and implementing new architecture
+	What I will do today: finish implementing
+	Obstacles I face: finishing on time
+
+Oct 28,2024
+	What I did yesterday: implemented new architecture in paintmodel
+	What I will do today: rest and plan for next sprint
+	Obstacles I face: waiting for sprint 3 to come out
+
+Oct 29,2024
+	What I did yesterday: rested and planned for sprint3
+	What I will do today: wait for sprint 3 to be released
+	Obstacles I face: waiting N/A
+
+Oct 30,2024
+	What I did yesterday: waited for sprint 3 to release
+	What I will do today: look at sprint 3 and plan sprint meeting
+	Obstacles I face: understanding sprint 3
+
+Oct 31,2024
+	What I did yesterday: planned sprint meeting
+	What I will do today: hold sprint meeting with teammates
+	Obstacles I face: getting ahold of them but that might be easy.
+
+Nov 1,2024
+	What I did yesterday: finished BUG3.004 and rearchitected paintmodel
+	What I will do today: finish US3.001 and create themes
+	Obstacles I face: using javafx
+
+Nov 2,2024
+	What I did yesterday: finished US3.001 and created themes
+	What I will do today: find and fix mistakes
+	Obstacles I face: mistakes
+
+Nov 3,2024
+	What I did yesterday: fixed mistakes
+	What I will do today: nothing as im done my sprint tasks
+	Obstacles I face: N/A
+
+Nov 4,2024
+	What I did yesterday: submited sprint 3
+	What I will do today: rest and a wait fo4 sprint 4
+	Obstacles I face: N/A
+
+Nov 5,2024
+	What I did yesterday: waited for sprint 4
+	What I will do today: read sprint 4 and plan meeting
+	Obstacles I face: understanding sprint 4
+
+Nov 6,2024
+	What I did yesterday: planned sprint meeting and read sprint 4
+	What I will do today: have sprint meeting and finish US4.005
+	Obstacles I face: javafx, good architectural design
+
+Nov 7,2024
+	What I did yesterday: had sprint meeting with group
+	What I will do today: planned out my us/bugs and started
+	Obstacles I face: bugs in code
+
+Nov 8,2024
+	What I did yesterday:
+	What I will do today: start US4.005
+	Obstacles I face: bugs in my code
+
+Nov 9,2024
+	What I did yesterday: started US4.005
+	What I will do today: finished US4.005
+	Obstacles I face: bugs in my code
+
+Nov 10,2024
+	What I did yesterday: finished US4.005
+	What I will do today: work on BUG4.001 and my part of architecture to wrap up the project
+	Obstacles I face: the deadline
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

@@ -1,0 +1,83 @@
+(replicate sections below for each feature you want to highlight)
+--------------------------------------------------------------------------------
+FeatureName: Zoom In and Zoom Out
+
+Description: 
+	The feature allows users to adjust the zoom level allowing users to get a closer view of their artwork or
+    to see more of the canvas area. THic can be done either by pressing the Increase Zoom button,
+	which increases the zoom level by 0.5, the decrease Zoom button, which decreases the zoom by 0.5
+	or Reset Zoom Button, which resets the zoom back to 1.0.
+
+
+Reference: 
+	US3.004
+--------------------------------------------------------------------------------
+FeatureName: Shape Duplication
+
+Description: 
+	This feature allows users to duplicate their last created shape, saving time and effort,
+	especially when the user needs to create multiple instances of the same shape
+
+
+Reference: 
+	US3.006
+--------------------------------------------------------------------------------
+FeatureName: Themes
+
+Description:
+	This feature allows users to decide what type of theme they want IpainterPro to be, choosing from
+	a selection of light, dark, and tropical, the different themes provide a new user experience for all.
+
+Reference:
+	US3.001
+---------------------------------------------------------------------------------
+FeatureName: Colour selector
+
+Description:
+	This feature allows the user to live and draw in a world outside the default colour green given
+	at the start of the project, the user now has 20 colours to chose from to fill their creative desires.
+
+Reference:
+	US4.005
+----------------------------------------------------------------------------------
+FeatureName: clearing painting
+
+Description:
+	This feature allows users start a new after they mess up or simply have had enough
+	and want a fresh canvas to work on
+
+
+Reference:
+	BUG4.001
+-----------------------------------------------------------------------------------
+FeatureName: Saving canvas as an image file (png)
+
+Description:
+	This feature allows users to save their drawings into their local file as an image
+	stored in .png format
+
+
+Reference:
+	US4.011
+-----------------------------------------------------------------------------------
+FeatureName: Undo/Redo Functionality
+
+Description:
+    This feature allows users to easily reverse or reapply recent actions on the canvas.
+    This feature massively improves user experience, as it provides flexibility and control by allowing users
+    to experiment freely knowing that you can redo or undo any of your changes.
+
+Reference:
+    US4.006
+-----------------------------------------------------------------------------------
+FeatureName: Line Thickness Selector
+
+Description:
+    This feature allows users to adjust thickness of lines for shapes that the user creates on the canvas. This feature
+    gives users an ability to express themselves and adds flexibility to their drawing experience. There are 5 different
+    thickness levels to choose from: 0, 1, 2, 3, 4, 5. After changing your thickness, the rest of the shapes after that
+    will be drawn with that thickness and can be changed whenever needed.
+
+Reference:
+    US4.007
+-----------------------------------------------------------------------------------

@@ -1,0 +1,166 @@
+# Fill in, commit and push each day.
+Member name:    Nicholas Nathan Wang
+email:          nnathan.wang@mail.utoronto.ca
+utorid:         wangni55
+
+Oct 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 15,2024
+	What I did yesterday: Downloaded the repo, added member.txt and putting the Assignment 2 folder into the repo
+	What I will do today: Check out the overall assignment
+	Obstacles I face: It's a bit confusing at first to understand what is going on within Paint
+
+Oct 16,2024
+	What I did yesterday: Checked out the assignment and saw what we're going to do (product backlog)
+	What I will do today: Nothing yet, waiting for teammates to finish their lab and discuss it
+	Obstacles I face: Understanding the git branch and merge stuffs
+
+Oct 17,2024
+	What I did yesterday: Reviewing the architecture and other .txt files
+	What I will do today: Dividing work with my teammates for sprint 1
+	Obstacles I face: Confusion on what to do if there is a conflict
+
+Oct 18,2024
+	What I did yesterday: Diving work and looking for possible solutions for my part of the bugs
+	What I will do today: Nothing yet, I have another assignment due tomorrow
+	Obstacles I face: Nothing yet
+
+Oct 19,2024
+	What I did yesterday: Nothing yet
+	What I will do today: Resolve BUG1.005 and start on US1.004
+	Obstacles I face: Finding it harder than it looks
+
+Oct 20,2024
+	What I did yesterday: Resolved BUG1.005 and merged it with origin, didn't do US1.004 yet
+	What I will do today: Finish US1.004
+	Obstacles I face: I was stuck on my I needed a second click to show the final rendered rectangle, turns out that
+	                  you need to delete the "feedback" rectangle, so that it shows the finalized one.
+
+Oct 21,2024
+	What I did yesterday: Officially finished Sprint 1
+	What I will do today: Read what we are going to do for Sprint 2
+	Obstacles I face: Nothing really stood out
+
+Oct 22,2024
+	What I did yesterday: Reading what Sprint 2 is about
+	What I will do today: Study for midterms
+	Obstacles I face: N/A
+
+Oct 23,2024
+	What I did yesterday: Studied for midterms
+	What I will do today: Studied for midterms
+	Obstacles I face: N/A
+
+Oct 24,2024
+	What I did yesterday: Studied for midterms
+	What I will do today: Group meeting to discuss what to do in Sprint 2
+	Obstacles I face: N/A
+
+Oct 25,2024
+	What I did yesterday: Group meeting and studied for midterms
+	What I will do today: Preparing for midterms
+	Obstacles I face: N/A, apart from studying for the midterms
+
+Oct 26,2024
+	What I did yesterday: Studied for the midterms
+	What I will do today: Finish my exam well, and work on class Triangle
+	Obstacles I face: Got a divergent branch and had to fix it for a while, luckily the codes are still intact
+
+Oct 27,2024
+	What I did yesterday: Worked on class Triangle
+	What I will do today: Work on class Oval
+	Obstacles I face: Nothing, got used to adding the shapes already (quicker finish)
+
+Oct 28,2024
+	What I did yesterday: Did work on class Oval
+	What I will do today: Nothing yet, waiting for Sprint 3 updates
+	Obstacles I face: Nothing yet
+
+Oct 29,2024
+	What I did yesterday: Nothing yet, waiting for Sprint 3 updates
+	What I will do today: Waiting for Sprint 3 announcement
+	Obstacles I face: Nothing yet
+
+Oct 30,2024
+	What I did yesterday: Waited for Sprint 3 announcement
+	What I will do today: Plan a sprint meeting with the team
+	Obstacles I face: Nothing yet
+
+Oct 31,2024
+	What I did yesterday: Planned a sprint meeting with the team
+	What I will do today: Do a meeting with the team to discuss what to do in this sprint
+	Obstacles I face: Nothing yet
+
+Nov 1,2024
+	What I did yesterday: Did a meeting with the team
+	What I will do today: Making bugs/user stories to do for this sprint
+	Obstacles I face: Nothing yet
+
+Nov 2,2024
+	What I did yesterday: Made bugs/user stories to do for the sprint
+	What I will do today: Added a new architecture/design pattern for the handle and update method in PaintPanel
+	Obstacles I face: Needed to go back and forth to different shape classes to add their new method from interface.
+
+Nov 3,2024
+	What I did yesterday: Added a new interface Drawable to "draw" shapes in PaintPanel's handle and update method.
+	What I will do today: Do US3.003
+	Obstacles I face: There was a masking issue between Squiggle and Polyline that demands more time from me to fix
+
+Nov 4,2024
+	What I did yesterday: Did US3.003 and submitted Sprint 3
+	What I will do today: Nothing, waiting for Sprint 4
+	Obstacles I face: Nothing
+
+Nov 5,2024
+	What I did yesterday: Nothing
+	What I will do today: Read sprint 4 and schedule a meeting with the team
+	Obstacles I face: Nothing yet
+
+Nov 6,2024
+	What I did yesterday: Planned a sprint meeting with the team
+	What I will do today: Look into the modules and imports to be able to save an image
+	Obstacles I face: Familiarizing myself with the modules
+
+Nov 7,2024
+	What I did yesterday: Looked into modules to save image
+	What I will do today: Try to do select shapes and moving it
+	Obstacles I face: Confusion on how to move the shapes
+
+Nov 8,2024
+	What I did yesterday: Tried to do select shapes and moving it
+	What I will do today: Nothing, need to prepare for another course's exam
+	Obstacles I face: Nothing related to Assignment 2
+
+Nov 9,2024
+	What I did yesterday: Nothing, prepared for my exam
+	What I will do today: Look into youtube tutorials and try to continue select shapes
+	Obstacles I face: Didn't quite finish select shapes and decided not to do it
+
+Nov 10,2024
+	What I did yesterday: Looked into some tutorials on how to save files
+	What I will do today: Add the 'save' feature in the application and do High Level Architecture
+	Obstacles I face: Implementing the save feature
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

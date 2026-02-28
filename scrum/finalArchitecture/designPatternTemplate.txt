@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+Name: (name) (so you can refer to it below)
+Pattern Name: (Factory/Command/Strategy/...) 
+Reference: (link to a specific version of a DP in https://www.oodesign.com/), for example...
+	https://www.oodesign.com/images/design_patterns/behavioral/iterator_implementation_-_uml_class_diagram.gif
+
+Purpose: 
+	(why is this pattern implemented? think SOLID as possible reasons and explain in terms of the application)
+
+UML: 
+	(include a UML or refer to one included in the finalArchitecture directory)
+	(make it easy on us, and organize the diagram so that it looks like the
+	reference pattern).
+
+Classes: 
+	(list classes involved and their roles based on Reference above)
+	class1: role1
+	class2: role1
+	class3: role1
+	class4: role1
+
+Usage: 
+	(Briefly describe why a developer would be playing with this part of 
+	the code and how they would use it to achieve that purpose)
+
+--------------------------------------------------------------------------------
+
+1)
+
+Name: ShapeStrategy
+Pattern Name: Strategy
+Reference: https://www.oodesign.com/strategy-pattern/
+
+Purpose:
+    This pattern was implemented to help keep PaintPanel SOLID, previously we were drawing the shapes in PaintPanel
+    using a switch and case system but this broke some SOLID principals as PaintPanel had more than a single
+    purpose as well as an open implementation that had to be heavily modified for extension. This coupled with the
+    idea that each case was just a slight variation for each shape, the Strategy design pattern was chosen.
+
+UML:
+	look at Strategy UML.png
+
+Classes:
+	ShapeStrategy:     this serves as the interface strategy
+	CircleStrategy:    implements the circle strategy
+	RectangleStrategy: implements the rectangle strategy
+	SquareStrategy:    implements the square strategy
+	TriangleStrategy:  implements the triangle strategy
+	OvalStrategy:      implements the oval strategy
+	PolylineStrategy:  implements the polyline strategy
+	SquiggleStrategy:  implements the squiggle strategy
+
+	Circle:     is used by CircleStrategy to draw a circle
+	Rectangle:  is used by RectangleStrategy to draw a Rectangle
+	Square:     is used by SquareStrategy to draw a Square
+	Triangle:   is used by TriangleStrategy to draw a Triangle
+	Oval:       is used by OvalStrategy to draw a Oval
+	Polyline:   is used by PolylineStrategy to draw a Polyline
+	Squiggle:   is used by SquiggleStrategy to draw a Squiggle
+
+
+
+Usage:
+	A developer would be playing with this code or would be inclined to play with it in the event
+	of an extension to the program where the develop wants to add a new shape that can be drawn like a star.
+	In this case the developer would need to create a new concrete ShapeStrategy and corresponding Concrete shape
+	to be used by set strategy.
+
+--------------------------------------------------------------------------------
+2)
+
+Name: ShapeFactory
+Pattern Name: Factory
+Reference: https://www.oodesign.com/factory-pattern
+
+Purpose:
+	This pattern was implemented to also help keep PaintPanel SOLID, previously we were creating the shapes in PaintPanel
+    and the implementation of these shapes were fully public meaning we were exposing the instantiation logic to the client.
+    but now we refer to the newly created shape objects through a common interface which we implemented, this intern
+    helps keep PaintPanel more SOLID.
+
+UML:
+	look at Factory UML.png
+
+Classes:
+    PaintPanel: is used to draw shapes by getting shapes from PaintModel
+    PaintModel: creates and stores all shapes to be accessed by PaintPanel and drawn
+    Shape:      is used as a interface by PaintPanel
+    drawable:   is used as a interface by PaintPanel
+	Circle:     is used by PaintModel to store a circle
+    Rectangle:  is used by PaintModel to store a Rectangle
+    Square:     is used by PaintModel to store a Square
+    Triangle:   is used by PaintModel to store a Triangle
+    Oval:       is used by PaintModel to store a Oval
+    Polyline:   is used by PaintModel to store a Polyline
+    Squiggle:   is used by PaintModel to store a Squiggle
+
+Usage:
+	A developer would be playing with this code in the event that they wanted to add a new shape, in this event
+	they would create a new shape and make it implement shape and drawable so that PaintPanel and PaintModel
+	could draw and store it.
+

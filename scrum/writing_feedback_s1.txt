@@ -1,0 +1,11 @@
+S&O: 2
+WM: 2.5
+AE: 3.5
+
+Feedback:
+– [AE] Try to use more context-appropriate language. For example, in architexture.txt, think of a better, more technical and formal way to word "...as other files do not need to know about the implementation."
+– [WM] Watch out for grammar and sentence structure. An example of this is in architexture.txt, where you say "The view of the application is the View.java since it renders the different UI components and renders what the user sees." A better way to word this would be: "There is a View class that renders the different UI components for the user to see."
+– [S&O] Make sure you're following the actual format of the user story. In productBacklog.txt, you have "AS A: user I WANT: As a user ..." when you want to make sure it flows together. It should instead say something like "AS A user I WANT to be able to see a Circle... SO THAT I can see the Circle I know what to expect my Circle to look like on release of the mouse button" or something along these lines.
+– [S&O] Make sure all user stories are written from the user's perspective, not the programmer implementing the feature. Check productBacklog.txt, US?.009. You don't want to say things like "AS A user I WANT to create a tool.." because the user won't be creating the tool. Review materials to get a better understanding of the purpose/structure of user stories if needed.
+- [WM] Watch out for informal language like "undo'ing"! Consider rephrasing to something more formal like "SO THAT I can erase elements that I have previously drawn."
+- [AE] Good job overall on AE.

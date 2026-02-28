@@ -1,0 +1,165 @@
+# Fill in, commit and push each day.
+Member name: Nart  Machfj
+email:       n.machfj@mail.utoronto.ca
+utorid:      machfjna
+
+Oct 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 15,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 16,2024
+	What I did yesterday:
+	What I will do today: pull the starter code and unzip
+	Obstacles I face: N/A
+
+Oct 17,2024
+	What I did yesterday: pulled the starter code and unzipped
+	What I will do today: add my info to members.txt
+	Obstacles I face: N/A
+
+Oct 18,2024
+	What I did yesterday: added my info to members.txt
+	What I will do today: N/A
+	Obstacles I face: N/A
+
+Oct 19,2024
+	What I did yesterday: N/A
+	What I will do today: Complete BUG BUG1.002 and USER STORY US1.002
+	Obstacles I face: Learning the codebase and implementing real-time dragging
+
+Oct 20,2024
+	What I did yesterday: Completed BUG BUG1.002 and USER STORY US1.002
+	What I will do today: push from local branch to master and add to architecture.txt
+	Obstacles I face: N/A
+
+Oct 21,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 22,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 23,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 24,2024
+	What I did yesterday: caught up on sprint2 content
+	What I will do today: have group meeting for sprint2
+	Obstacles I face: splitting up work fairly
+
+Oct 25,2024
+	What I did yesterday: had meeting for sprint2
+	What I will do today: help make a plan to re-architect ShapeChooserPanel and PaintPanel
+	Obstacles I face: finding which design pattern is needed
+
+Oct 26,2024
+	What I did yesterday: thought of possible design patterns for re-architecting
+	What I will do today: finalize plan and work on implementing
+	Obstacles I face: N/A
+
+Oct 27,2024
+	What I did yesterday: helped implement the re-architecture for ShapeChooserPanel and PaintPanel
+	What I will do today: merge and push all changes made to master
+	Obstacles I face: N/A
+
+Oct 28,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 29,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 30,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 31,2024
+	What I did yesterday: N/A
+	What I will do today: catch up on what to do for sprint3
+	Obstacles I face: N/A
+
+Nov 1,2024
+	What I did yesterday: looked at what was needed to be done for sprint3
+	What I will do today: create the 2 user stories and put them in productBacklog.txt
+	Obstacles I face: finding interesting user stories to implement
+
+Nov 2,2024
+	What I did yesterday: created the 2 user stories
+	What I will do today: start implementing the 2 user stories
+	Obstacles I face: N/A
+
+Nov 3,2024
+	What I did yesterday: implemented US3.004 and started US3.006
+	What I will do today: finished implementing US3.006
+	Obstacles I face: N/A
+
+Nov 4,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 5,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 6,2024
+	What I did yesterday: N/A
+	What I will do today: meeting with group for sprint4
+	Obstacles I face: N/A
+
+Nov 7,2024
+	What I did yesterday: N/A
+	What I will do today: catch up on what is needed to complete for sprint 4
+	Obstacles I face: N/A
+
+Nov 8,2024
+	What I did yesterday: caught up on what is needed to complete for sprint 4
+	What I will do today: decide which user stories I would like to implement for this sprint
+	Obstacles I face: N/A
+
+Nov 9,2024
+	What I did yesterday: found the user stories I wanted to implement for sprint 4
+	What I will do today: implement US4.006 and start implementing US4.007
+	Obstacles I face: Thickness not showing on preview of drawing
+
+Nov 10,2024
+	What I did yesterday: Implemented US4.006 and US4.007
+	What I will do today: Do the MVC part of the sprint4 architecture and make sure all details of the code work
+	Obstacles I face: N/A
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

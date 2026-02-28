@@ -1,0 +1,86 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	Model - The model of the application is the PaintModel.java file since it defines the data structures responsible
+	for the certain shapes. We use dynamic arrays to store the different shapes rendered on the screen. These data
+	structures are private to the model (we say that they are encapsulated within the model class) as other files do not
+	need to know about the implementation. The model class exposes a public API for adding/removing shapes from the data
+	structure that other files can use, such as PaintPanel.java to render/store shapes.
+
+	View - The view of the application is the View.java since it renders the different UI components and renders what
+	the user sees. These include things like the shapes, the shape chooser and the menu bar at the top.
+	Each view implements its own controller. For example, the ShapeChooserPanel renders the different buttons/icons on
+	the left, and implements a controller to handle the user's interaction with it.
+
+	Controller - The controller typically controls the flow of logic and determines what happens as the user interacts
+	with the application. For example, the logic for interacting with the shapes is implemented in ShapeChooserPanel.java
+	and the logic for drawing the shapes in real time and after release is implemented in PaintPanel.java. These are being
+	called in View.java, so we can say that the View file is the controller of the application.
+	
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example, 
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code. 
+		
+	Strategy:
+	Command: 
+	Singleton:
+	Composite:
+	Factory:
+	Builder:
+	Observer/Observable:
+	... (any others you find useful) ...
+
+OTHER ARCHITECTURE DISCUSSIONS
+
+----------------------------------------------------------------------------------------------------------------------
+Outline your understanding of the current organization of the code and how the pieces fit together, referring to your class diagrams as well as methods, and variables etc:
+
+The code currently has ten classes which work together to produce the working paint application, these classes are:
+
+	Point: The point class is used to store a location with x and y coordinates that are variables, both of type double.
+	
+	Circle: the circle class is used to create an object circle that has variable center which is a Point and variable radius which is of type double. The Circle class has setters and getters for both these variables.
+
+	Rectangle: the Rectangle class is used to create an object rectangle that has variables top left and bottom right which are both Points. The Rectangle class has setters and getters for both these variables.
+
+	PaintModel: the PaintModel class is used to store all the shapes a user wants to draw in respective arraylists which can be accessed later by other classes. the class consists of functions to add shapes and squiggles.
+
+	PaintPanel: the PaintPanel class is used to actually draw shapes onto the canvas using the PaintModel class to retrieve all the shapes in order to draw them out. This class currently has variables for the current shape 	            that needs to be drawn but this is planned to be fixed later on.
+	
+	ShapeChooserPanel: the ShapeChooserPanel class creates what the user sees on the left hand side of the paint application which is the icons and drawing buttons that the user can select. It accesses user files in the
+			   assignment repo for icons and creates buttons for each drawing type (circle rectangle, squiggle).
+
+	View: The View class combines the previous 3 classes to create a new scene which is what the user sees as the paint program, it uses the scenes from previous classes to create the new one and also creates and menu bar.
+
+	Paint: the Paint class essentially creates a PaintModel object and uses it to build a View object in order to display the paint application when run.
+
+
+Considering all of these classes we can simulate how they all work together by walking through an example of drawing a circle. 
+
+	first the user runs paint which creates a PaintModel object and a View object, the view object then creates a PaintPanel and ShapeChooserPanel objects. now the user selects on the circle button made by ShapeChooserPanel
+	and creates a new Circle object made by PaintPanels event handler method which also accesses PaintModel and adds the circle into it. now there is a circle displayed on the screen and the circle is stored in Paintmodel.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Outline how one adds another shape feature (such as rectangle) to the system:
+
+First of all, to make a new shape feature, you would need another button to trigger the event and trigger the
+instructions. The buttons designed for selecting shapes are initialized in ShapeChooserPanel.java. After adding a new
+shape to the list, you should make a new model for the shape in PaintModel.java, similar to other shapes. However, the
+methods you would need to provide might differ from other shapes. Then, in PaintPanel.java, we should add another case
+in the 'handle' method to provide descriptions on what to do when your new shape's button is triggered, i.e. mouse pressed,
+mouse clicked, mouse dragged, etc. Lastly, if the shape requires a different update method, you should add another way
+to handle the update for that specific shape in 'update' method, which is also located in PaintPanel.java. Then, try
+running Paint.java and see if your new shape works as you planned it to work.

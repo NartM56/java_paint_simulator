@@ -1,0 +1,249 @@
+# Architecture
+
+# MVC
+# ModelClasses
+	(list your classes here, no description)
+	PaintModel
+	Circle
+	Oval
+	Polyline
+	Rectangle
+	Square
+	Squiggle
+	Triangle
+# ViewClasses
+	(list your classes here, no description)
+	View
+	Circle
+	Oval
+    Polyline
+    Rectangle
+    Square
+    Squiggle
+    Triangle
+# ControllerClasses
+	(list your classes here, no description)
+	PaintPanel
+	CircleStrategy
+	OvalStrategy
+	PolylineStrategy
+	RectangleStrategy
+	SquareStrategy
+	SquiggleStrategy
+	TriangleStrategy
+
+
+
+# (other logical  ways of collecting your classes)
+	
+# Design Patterns Used (collections of classes into DP)
+--------------------------------------------------------------------------------
+	(For each design pattern, pull from  and modify designPatternTemplate.txt)
+
+1)
+    Name: ShapeStrategy
+    Pattern Name: Strategy
+    Reference: https://www.oodesign.com/strategy-pattern/
+
+    Purpose:
+        This pattern was implemented to help keep PaintPanel SOLID, previously we were drawing the shapes in PaintPanel
+        using a switch and case system but this broke some SOLID principals as PaintPanel had more than a single
+        purpose as well as an open implementation that had to be heavily modified for extension. This coupled with the
+        idea that each case was just a slight variation for each shape, the Strategy design pattern was chosen.
+
+    UML:
+    	look at Strategy UML.png
+
+    Classes:
+    	ShapeStrategy:     this serves as the interface strategy
+    	CircleStrategy:    implements the circle strategy
+    	RectangleStrategy: implements the rectangle strategy
+    	SquareStrategy:    implements the square strategy
+    	TriangleStrategy:  implements the triangle strategy
+    	OvalStrategy:      implements the oval strategy
+    	PolylineStrategy:  implements the polyline strategy
+    	SquiggleStrategy:  implements the squiggle strategy
+
+    	Circle:     is used by CircleStrategy to draw a circle
+    	Rectangle:  is used by RectangleStrategy to draw a Rectangle
+    	Square:     is used by SquareStrategy to draw a Square
+    	Triangle:   is used by TriangleStrategy to draw a Triangle
+    	Oval:       is used by OvalStrategy to draw a Oval
+    	Polyline:   is used by PolylineStrategy to draw a Polyline
+    	Squiggle:   is used by SquiggleStrategy to draw a Squiggle
+
+
+
+    Usage:
+    	A developer would be playing with this code or would be inclined to play with it in the event
+    	of an extension to the program where the develop wants to add a new shape that can be drawn like a star.
+    	In this case the developer would need to create a new concrete ShapeStrategy and corresponding Concrete shape
+    	to be used by set strategy.
+
+--------------------------------------------------------------------------------
+
+2)
+    Name: ShapeFactory
+    Pattern Name: Factory
+    Reference: https://www.oodesign.com/factory-pattern
+
+    Purpose:
+    	This pattern was implemented to also help keep PaintPanel SOLID, previously we were creating the shapes in PaintPanel
+        and the implementation of these shapes were fully public meaning we were exposing the instantiation logic to the client.
+        but now we refer to the newly created shape objects through a common interface which we implemented, this intern
+        helps keep PaintPanel more SOLID.
+
+    UML:
+    	look at Factory UML.png
+
+    Classes:
+        PaintPanel: is used to draw shapes by getting shapes from PaintModel
+        PaintModel: creates and stores all shapes to be accessed by PaintPanel and drawn
+        Shape:      is used as a interface by PaintPanel
+        drawable:   is used as a interface by PaintPanel
+    	Circle:     is used by PaintModel to store a circle
+        Rectangle:  is used by PaintModel to store a Rectangle
+        Square:     is used by PaintModel to store a Square
+        Triangle:   is used by PaintModel to store a Triangle
+        Oval:       is used by PaintModel to store a Oval
+        Polyline:   is used by PaintModel to store a Polyline
+        Squiggle:   is used by PaintModel to store a Squiggle
+
+    Usage:
+    	A developer would be playing with this code in the event that they wanted to add a new shape, in this event
+    	they would create a new shape and make it implement shape and drawable so that PaintPanel and PaintModel
+    	could draw and store it.
+
+
+--------------------------------------------------------------------------------
+# High Level Architecture Discussion
+--------------------------------------------------------------------------------
+New Shape Implementation:
+Description:
+	(description of what the feature is and how it is tied to the architecture
+	application and the code...)
+
+	A new shape enables users to draw new shapes into the canvas inside the application.
+	When the user clicks on the shape icon displayed in the application, there will be a highlight
+	around the button, indicating that the current shape is selected. Then, user can click and drag
+	the shape accordingly.
+
+	This implementation requires a new shape strategy (following the ShapeStrategy.java interface) to
+	handle user's input specifically for this specific shape. For example, a "Circle" shape would have to
+	implement "CircleStrategy.java" in order to record user's input and draw the circles based on the actions
+	provided, i.e. click, drag, and release.
+
+	This shows that the implementation is tied to the code architecture, which uses Strategy design pattern
+	to activate specific classes or methods responsible for handling the shape's drawing logic.
+
+Implementation:
+	(inventory of ideas, required files, how they are tied to the architecture,
+		naming conventions (example: images/ButtonIconSquare.jpg, MHStrategySquare, ShapeSquare...)
+
+	To add a new shape implementation in the code, developers need to provide:
+
+	image icon: Create a png image with dimensions 620x479, and place it
+		on display in ShapeChoosePanel, placed in resources/images/(ShapeName)((blank)/p/c).jpg.
+		The codes (blank/p/c) is used for different themes in the application, i.e. blank indicates the default
+		theme, 'p' indicates the tropical theme, and 'c' indicates the dark theme.
+
+	MouseHandlerStrategy:
+	    As mentioned briefly in the description, there are 2 classes that should be added to the module paint, which are
+	    (shapeName).java and (shapeName)Strategy.java. (shapeName).java implements 2 interfaces, Drawable and Shape. On
+	    the other hand, (shapeName)Strategy.java implements EventHandler<MouseEvent> and ShapeStrategy. This particular
+	    architecture is used to simplify the handle and update method in PaintPanel, which goes through the strategies
+	    for the shapes when a change is triggered. The key methods that should be implemented are provided in the
+	    respective interfaces, i.e. Drawable, Shape, ShapeStrategy.
+
+	(Shape)Strategy:
+		From the MouseHandlerStrategy, a new Shape implementation requires a (Shape)Strategy class where the class itself
+		handles the different mouse inputs, i.e. MouseClicked, MouseDragged, MouseReleased, etc. After implementing it,
+		it is important to add the respective strategy as a filed in PaintPanel.java to be accessed later. In addition,
+		the strategy must also be added into strategyMap where it is iterated in the handle method.
+
+Example:
+	Oval.png, Ovalc.png, Ovalp.png, Oval.java, OvalStrategy.java, PaintPanel.java
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Adding new features in the Menu Bar:
+Description:
+    A menu bar is used to access specific actions or settings directly from the application. It works as an interface
+    or the front-end version to ease user when they want to access certain features. Now, adding a feature in the menu bar
+    will provide more options to the user on what they want to do with their changes directly from the application menu.
+
+    How it works:
+        The menu bar has various sections, i.e. File, Edit, View, Theme, Thickness, and possibly more overtime. Each
+        section contains more options, such as: New, Open, Save, Exit, Undo, Redo, etc. When user clicks on one of these
+        options, then the application will respond accordingly.
+
+    A new menu bar or options can be added into the existing menu bar, located in View.java, which acts as an "Observable"
+    in the code. A menu bar can be added into the createMenuBar method, along with their menu items (the dropdown options).
+    The buttons in the menu bar are equipped with action listener, such that when a user clicks on the button, the handle method
+    in View.java will know which button is clicked (using switch case) and execute the following lines of code.
+
+Implementation:
+    Menu Structure:
+        Identify the menu section under which the new item will be placed. For example, the "File" section for file-related actions (Open, Save).
+    Inventory of Components:
+        Menu Item Creation:
+            The new feature will require creating a new MenuItem object that will be added to the appropriate menu.
+        Event Handler:
+            Create an event handler or action listener for the new menu item to define the action taken when clicked.
+        Icon/Image (Optional):
+            If the menu item requires an icon, prepare an image file and add it to the project’s resources folder.
+    Steps on adding a new menu item:
+        1. Create a new menuItem instance in createMenuBar method
+        2. Define the action for the menu item by adding an event handler, i.e.  menuItem.setOnAction(this);
+        3. Add the menu item to the appropriate menu section (e.g., menu)
+        4. In handle method, add the case for your new menu and describe what happens when that button is pressed
+
+Example:
+    In View.java, there are several menus: Save, Exit, New, Duplicate, etc.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Adding new features for Shape:
+Description:
+    Adding a new feature for every shape allows consistent functionality across all shape types enhancing user experience
+    and application versatility. For example, you could add features such as rotation, resizing, color fill, or border
+    adjustments to all shapes.
+
+    Each shape (Circle, Rectangle, Triangle, etc.) implements a common interface (e.g., Shape and Drawable in your files)
+    which provides the structure for these common features. The new feature can be integrated by updating each shape's
+    implementation and ensuring it aligns with the ShapeStrategy used by the application’s PaintPanel.
+
+    The feature is implemented by adding a new method or modifying the existing ShapeStrategy or Shape interfaces,
+    which handle user interactions for each shape.
+
+    Shape Classes:
+        Each shape class (e.g., Circle, Rectangle) is extended with the new feature by adding methods or properties directly
+        related to the feature.
+    Shape Strategies:
+        ShapeStrategy classes (e.g., CircleStrategy, RectangleStrategy) implement event handling and ensure the feature works
+        in response to user actions (e.g., mouse events).
+    PaintPanel and PaintModel:
+        The main PaintPanel and PaintModel classes may need minor updates to integrate and control the feature across all shapes.
+
+Implementation:
+    Shape Classes:
+        Objective: Update each shape class to support the new feature. For instance, if the feature is rotation,
+                   each shape class would have a rotate(double angle) method.
+        Requirements: Add relevant properties, such as rotation angle, color, or border width, and methods in each shape class.
+        Example Naming: Use rotate, resize, or applyColor as method names, depending on the feature.
+    ShapeStrategy Classes:
+        Objective: Implement the logic for user interaction with the feature in each ShapeStrategy class.
+        Requirements: Update each ShapeStrategy class to handle mouse events and apply the new feature to the shape.
+                      For example, CircleStrategy might implement the handleRotation() method if rotation is the feature.
+                      However, it might be different for other shape's strategy since they also have different attributes
+                      and fields, according to the characteristics of the shape.
+    PaintPanel:
+        Objective: Ensure that PaintPanel supports the new feature across all shapes by updating event handlers or
+                   adding a new button/icon to enable the feature for all shapes.
+        Requirements: Create a button/icon in the button panel and link it to the feature’s activation. Update PaintPanel’s
+                      event handling to apply the feature when the button is selected.
+    File Inventory:
+        Shape Classes: Each shape class (e.g., Circle.java, Rectangle.java) needs a new method for the feature.
+        Shape Strategy Classes: Update each ShapeStrategy class (e.g., CircleStrategy, RectangleStrategy) to apply the feature.
+        PaintPanel and PaintModel: Update PaintPanel to add a new button or enable the feature for each shape.
+Example:
+    cloner and setThickness method in interface Shape, which is applied to every shape class implementing the interface.
+

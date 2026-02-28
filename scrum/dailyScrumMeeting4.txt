@@ -1,0 +1,166 @@
+# Fill in, commit and push each day.
+Member name: Jessica Olivia Situmorang
+email: jessica.situmorang@mail.utoronto.ca
+utorid: situmor1
+
+Oct 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 15,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 16,2024
+	What I did yesterday: Downloaded repo.
+	What I will do today: Read Assignment page and understand overall tasks.
+	Obstacles I face: Understanding what to do and making sense of the overall assignment.
+
+Oct 17,2024
+	What I did yesterday: Read Assignment page and understand overall tasks.
+	What I will do today: Review each .txt files.
+	Obstacles I face: Understanding how this assignment will be done as a group project.
+
+Oct 18,2024
+	What I did yesterday: Review each .txt files.
+	What I will do today: Divide tasks between team members.
+	Obstacles I face: Nothing yet.
+
+Oct 19,2024
+	What I did yesterday: Divide tasks between team members.
+	What I will do today: Review my task and start finding ways to fix the bug.
+	Obstacles I face: N/A
+
+Oct 20,2024
+	What I did yesterday: Review my task and start finding ways to fix the bug.
+	What I will do today: Completed BUG1.006 and merged with origin
+	Obstacles I face: Confused with the location of files, accidentally copied
+	two same files in two different locations and confusing the group.
+
+Oct 21,2024
+	What I did yesterday: Completed BUG1.006 and merged with origin
+	What I will do today: Read Sprint 2 page on course website
+	Obstacles I face: N/A
+
+Oct 22,2024
+	What I did yesterday: Read Sprint 2 page on course website
+	What I will do today: Review lecture notes for the midterm
+	Obstacles I face: N/A
+
+Oct 23,2024
+	What I did yesterday: Reviewed lecture notes for the midterm
+	What I will do today: Study for the midterm
+	Obstacles I face: N/A
+
+Oct 24,2024
+	What I did yesterday: Studied for the midterm
+	What I will do today: Group meeting discussing Sprint 2
+	Obstacles I face: N/A
+
+Oct 25,2024
+	What I did yesterday: Group meeting discussing Sprint 2
+	What I will do today: Study for the midterm and review my part of Sprint 2
+	Obstacles I face: N/A
+
+Oct 26,2024
+	What I did yesterday: Studied for the midterm and reviewed my part of Sprint 2
+	What I will do today: Work on my part of Sprint 2
+	Obstacles I face: N/A
+
+Oct 27,2024
+	What I did yesterday: Worked on my part of Sprint 2
+	What I will do today: Complete US2.002 and merge with origin
+	Obstacles I face: N/A
+
+Oct 28,2024
+	What I did yesterday: Completed US2.002 and merged with origin
+	What I will do today:
+	Obstacles I face:
+
+Oct 29,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 30,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Oct 31,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 1,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 2,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 3,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 4,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 5,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 6,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 7,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 8,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 9,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 10,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 11,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 12,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 13,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+
+Nov 14,2024
+	What I did yesterday:
+	What I will do today:
+	Obstacles I face:
+

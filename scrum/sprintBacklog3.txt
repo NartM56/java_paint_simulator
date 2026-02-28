@@ -1,0 +1,69 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 3 Oct 27-Nov 03, 2024
+# Sprint 3 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : BUG BUG?.004 : kahloon6 : Completed
+NAME     : Architecture behind Model is poor
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG BUG3.005 : wangni55 : Completed
+NAME     : Architecture behind handle and update method in panel is poor
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 4 hours
+ISSUE    : Adding a new shape into the handle method in PaintPanel will break
+           the 'O' principle in SOLID, which is Open/Closed principle. In this
+           case, if we want to add another shape, we would modify the method,
+           not extend it. We want to fix it, so that it is extended, not
+           modified.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER US3.001 : kahloon6 : Completed
+NAME     : themes
+PRIORITY : 3
+ESTIMATE : (1 hour, 2 hours, 4 hours, 1 day, 2 days, 4 days)    ACTUAL :
+AS A     : user
+I WANT   : to be able to change the theme of the paint application by selecting from the theme drop down
+	   on the top menu bar
+SO THAT  : my paint application can look different with different themes that are artistic
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER US3.003 : wangni55 : Completed
+NAME     : Draw polyline
+PRIORITY : 3
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+AS A     : user
+I WANT   : to be able to make squiggles with ends that connect
+SO THAT  : I only have one continuous line, instead of disconnected lines
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE : USER US3.004 : machfjna : Completed
+NAME : Zoom In and Zoom Out
+PRIORITY : 3
+ESTIMATE : 3 hours ACTUAL : 4
+AS A : user
+I WANT : to be able to zoom in and zoom out on the canvas
+SO THAT : I can have a better view of my drawings and focus on a particular area
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE : USER US3.006 : machfjna : Completed
+NAME : Shape Duplication
+PRIORITY : 3
+ESTIMATE : 2 hours ACTUAL :
+
+AS A : user
+I WANT : to be able to duplicate shapes on the canvas
+SO THAT : I can quickly create multiple of the same shapes without having to draw them myself
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
